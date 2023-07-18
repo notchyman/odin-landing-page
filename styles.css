@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+.header,
+.top-content {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    border: 2px solid white;
+}
+
+/* header styles */
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+/* top-content styles */
+.top-content {
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    width: 100px;
+    height: 30px; 
+}
+
+
