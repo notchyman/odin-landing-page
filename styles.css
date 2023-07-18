@@ -3,42 +3,71 @@ body {
     margin: 0;
     overflow: hidden;
 }
+
 .header,
 .top-content {
     display: flex;
     background-color: #1F2937;
     color: white;
-    border: 2px solid white;
+    font-family:'Courier New', Courier, monospace ;
 }
 
 /* header styles */
 .header {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 16px;
+
 }
 
 ul {
     align-items: center;
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 8px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8;
+
 }
 
 /* top-content styles */
 .top-content {
-    align-items: center; 
-    justify-content: space-evenly;
+    padding: 18px;
 }
 
 img {
     width: 300px;
     height: auto;
+    margin: 50px;
 }
 
 button {
     width: 100px;
     height: 30px; 
+    background-color: #3882f6;
+    color: whitesmoke;
+    border-radius: 8px;
+    text-shadow: 1px 1px rgb(224, 224, 224);
+    box-shadow: 0.5px 0.5px;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #f9faf8;
+}
 
+span {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text {
+    margin-left: 40px
+}
